@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(50,150,200);
+  font-family: "Arial";
+
+}
+a  {
+  color: rgb(0,0,0); 
+}
+h2 {
+  color:rgb(256,256,256);
+}
+
+.gametitle{
+  position:relative;
+  width: 20% ;
+  left: 39.2%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.playLetter{
+  top: 0%;
+  display:inline-block;
+  border: 2px solid red;
+  padding: 5px;
+  background-color: gray;
+}
+.winnerRow{
+  /*display: inline;*/
+  position: relatve;
+  text-align: center;
+  height: 20px;
+
+}
+
+.victoryRow{
+  width: 100%;
+  left: 0%;
+  border-bottom: 2px dotted black;
+  position: relative;
+  z-index: 1;
+  top: 50%;
+}
+
+.victoryRow0{
+  /*display:;*/
+  top: 50%;
+}
+.victoryRow1{
+  top: 50%;
+}
+.victoryRow2{
+  top: 50%;
+}
+
+.showLine{
+  border: 2px dotted red !important;
+}
+
+.victoryCol{
+  height: 300%;
+  left: 50%;
+  display:inline;
+  border-left: 2px dotted black;
+  position: relative;
+  float: left;
+  z-index: 1;
+}
+.victoryDiag0{
+left: 0px;
+position:absolute;
+border-top:2px dotted black;
+width:212px;
+transform: rotate(45deg);
+transform-origin: 0% 0%;
+}
+.victoryDiag1{
+left: 150px;
+position:absolute;
+border-top:2px dotted black;
+width:212px;
+transform: rotate(135deg);
+transform-origin: 0% 0%;
+}
+
+
+.row{
+  position: relative;
+  left: 44.5%;
+  width: 150px;
+  border-bottom: 2px solid black;
+  /*-webkit-box-sizing: border-box;*/
+  height: 50px; 
+
+}
+
+.column:first-child{
+  border: 0 ;
+}
+
+
+.column{
+  border-left: 2px solid black;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3em;
+  display: inline;
+}
+
+.lastrow{
+  border: 0 ;
+}
+.tttsquare{
+  /*display:inline;*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*width: inherit;*/
+  /*height: inherit;*/
+  /*position: relative;*/
+}
+.numberbutton{
+  float: left;
+  /*padding: 3px;*/
+  margin: 2px;
+  /*padding-top: 10px;*/
+  /*margin-top: 10px;*/
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: center;
+  border: solid black 1px;
+  background-color: gray;
+  display: inline;
+}
+
+
+/*
+.victoryDiag0{
+  height: 100%;
+  display:inline;
+  border-right: 2px dotted red;
+  position: absolute;
+       z-index: 2;
+ -webkit-transform:
+ rotate(45deg);
+}*/
+
+/*.victoryDiag0{border:1px solid gray;
+width:200px;
+height:28px;
+position:relative;}
+
+*/
+  /*top: 50%;*/
+  /*position: relative;*/

@@ -1,0 +1,185 @@
+body {
+  background-color: rgb(200,200,200);
+  font-family: "Arial";
+
+}
+
+:root {
+    --simonsize: 30em;
+    --simonsizehalf: 15em;
+    --simonpx: 8em;
+}
+
+.fullSimon{
+  left: 50%;
+  width: var(--simonsize);
+  height: var(--simonsize);
+  position: absolute;
+  border-radius: 50%;
+  margin-left: -20%;
+  top: 10%;
+}
+.gametitle{
+  position:relative;
+  width: 20% ;
+  left: 39.2%;
+  text-align: center;
+  margin-top: 10px;
+}
+.levelNumber{
+  height: 40px;
+  top: 90px;
+  position: absolute;
+}
+
+#winnerRow{
+  top: 15px;
+  width: 100%;
+  position:absolute;
+  text-align: center;
+}
+
+#gameName{
+  top: 20%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 4em;
+}
+
+#containSettings{
+  position: absolute;
+  top: 8em;
+}
+
+#containLevel{
+  position: absolute;
+  width:8.5em;
+  left: 2em;
+  height: 4.5em;
+  }
+
+#levelNumberBox{
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: black;
+  border-radius: 10%;
+  font-size: 2em;
+  color: red;
+}
+
+.labelSettings{
+  padding: 0px;
+}
+
+#startButton{
+  height: 1em;
+  width:1em;
+  top: 1em;
+  border: 2px solid black;
+  position: absolute;
+  border-radius: 50%;
+  background-color: green;
+}
+
+
+#strictButton{
+  height: 1em;
+  width:1em;
+  top: 1em;
+  border: 2px solid black;
+  position: absolute;
+  border-radius: 50%;
+}
+.strictOn{
+  background-color: green;
+}
+
+.strictOff{
+  background-color: red;
+}
+.centerCircle{
+   position: absolute;
+   text-align: center;
+   border-radius: 50%;
+   border: 0.5em solid black;
+    top: var(--simonpx);
+    left: var(--simonpx);
+   background-color: white;
+   z-index: 5;
+   width: var(--simonsizehalf);
+   height: var(--simonsizehalf);
+   /*height: 14em;*/
+}
+
+
+.simonButton{
+    width: var(--simonsizehalf);
+    height: var(--simonsizehalf);
+    z-index: 2;
+    position: absolute;
+    border: 10px solid black;
+}
+
+
+
+.simonButton1off{
+    background-color: rgb(000,200,200);
+}
+
+.simonButton1on{
+    background-color: rgb(0,250,250);
+}
+
+.simonButton2off{
+    background-color: rgb(100,200,0);
+}
+
+.simonButton2on{
+    background-color: rgb(150,250,0);
+}
+
+
+.simonButton3off{
+    background-color: rgb(200,0,200);
+}
+
+.simonButton3on{
+    background-color: rgb(250,0,250);
+}
+
+.simonButton4off{
+    background-color: rgb(200,100,100);
+}
+
+.simonButton4on{
+    background-color: rgb(250,150,150);
+}
+
+
+.simonButton1{
+    left: 0;
+    position: absolute;
+    border-radius: var(--simonsizehalf) 0 0 0 ;  
+}
+.simonButton2{
+    left: var(--simonsizehalf);
+    /*background-color: red;*/
+    position: absolute;
+    border-radius: 0 var(--simonsizehalf) 0 0 ;  
+}
+
+.simonButton3{
+    top: var(--simonsizehalf);
+    /*background-color: blue;*/
+    position: absolute;
+    border-radius: 0 0 0 var(--simonsizehalf) ;  
+}
+
+.simonButton4{
+    top: var(--simonsizehalf);
+    left: var(--simonsizehalf);
+    /*background-color: green;*/
+    position: absolute;
+    border-radius: 0 0  var(--simonsizehalf)  0;  
+}

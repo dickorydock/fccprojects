@@ -1,0 +1,77 @@
+<head>
+
+<!-- CSS inclusion -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="file:///C:/Users/Nick/Downloads/Pig Latin _ Free Code Camp_files/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+<!-- Main page placeholders -->
+
+<div class="container-fluid">
+<div class="gametitle">
+Let's Play Tic-Tac-Toe! Pick A Letter<br/>
+    <div class="playLetter" id="playX">X
+    </div>
+    <div class="playLetter" id="playO">O
+    </div>
+</div>
+
+<div class="winnerRow"></div>
+</div>
+<!-- <div class=" victoryCol victoryCol0"></div>
+<div class=" victoryCol victoryCol1"></div>
+<div class=" victoryCol victoryCol2"></div>
+
+<div class="victoryRow victoryRow0"></div>
+<div class="victoryRow victoryRow1"></div>
+ -->
+
+<!-- 
+ --> 
+
+ <div id="tttTable" style="display: none;">
+<div class="row">        
+        <div id="box00" class="column col-xs-4 " >
+            <div class="victoryCol victoryCol0"></div>
+            <div class="victoryDiag0" ></div>
+            <div class="victoryDiag1"></div>
+        </div>
+        <div id="box01" class="column col-xs-4  ">
+            <div class=" victoryCol victoryCol1"></div>
+        </div>
+        <div id="box02" class="column col-xs-4  ">
+            <div class="victoryCol victoryCol2"></div>
+        </div>
+        <div class="victoryRow victoryRow0"></div>
+</div>       
+<div class="row">
+        
+        <div id="box10" class=" column col-xs-4  "></div>
+        <div id="box11" class=" column col-xs-4  "></div>
+        <div id="box12" class=" column col-xs-4  "></div>
+        <div class="victoryRow victoryRow1"></div>
+</div>
+
+<div class="row lastrow">
+        
+        <div id="box20" class=" column col-xs-4  "></div>
+        <div id="box21" class=" column col-xs-4  "></div>
+        <div id="box22" class=" column col-xs-4  "></div>
+        <div class="victoryRow victoryRow2"></div>
+ </div> 
+<!-- <div class="victoryDiag1"></div> -->
+
+  </div>
+</div>
+</div>
+</div>
+<!-- Javascript Inclusion -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="file:///C:/Users/Nick/Documents/R/win-library/3.2/leaflet/htmlwidgets/lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/tictactoe.js"></script>
+
+</body> 
